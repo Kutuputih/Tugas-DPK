@@ -1,0 +1,573 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-image: url(../asset/cloud_backround.webp);
+  background-size: cover;
+  height: 300vh;
+}
+
+/* nav */
+
+nav {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.6) 68%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  color: black;
+}
+
+nav,
+.nav-link {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  gap: 1rem;
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.nav-link li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.logo img {
+  background-color: transparent;
+  font-size: 15px;
+  width: 95%;
+  height: auto;
+}
+
+/* .line1 {
+    width: 100%;
+    float: right;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 20px;
+  } */
+
+nav,
+.line1 {
+  position: sticky;
+  top: 1px;
+  z-index: 99;
+}
+
+.nav-link hr {
+  width: 100%;
+  transform: rotate(90deg);
+}
+
+.o:hover {
+  color: rgb(0, 161, 182);
+}
+
+.o:hover ~ .line1 {
+  background-color: red;
+}
+
+.k:hover {
+  color: red;
+}
+
+.j:hover {
+  color: rgb(255, 167, 36);
+}
+
+.h:hover {
+  color: green;
+}
+
+.s:hover {
+  color: darkblue;
+}
+
+.f:hover {
+  color: purple;
+}
+
+/* type */
+
+.abilities {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 4rem;
+  gap: 0.5rem 2rem;
+  flex-wrap: wrap;
+}
+
+.grass-type {
+  background-color: #92bf19;
+  box-shadow: 2px 2px 4px #b8eb2e;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.poison-type {
+  background-color: #be78be;
+  box-shadow: 3px 3px 3px #d194d1;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.flying-type {
+  background-color: #79bcd7;
+  box-shadow: 3px 3px 3px #78dcff;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.fire-type {
+  background-color: #ff3700;
+  box-shadow: 3px 3px 3px #ff6900;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.water-type {
+  background-color: #0094e5;
+  box-shadow: 3px 3px 3px #14b9ff;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.bug-type {
+  background-color: #32b432;
+  box-shadow: 3px 3px 3px #46c846;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.normal-type {
+  background-color: #a0a0a0;
+  box-shadow: 3px 3px 3px #dcdcdc;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+.electric-type {
+  background-color: #ffe100;
+  box-shadow: 3px 3px 3px #e4b700;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.ground-type {
+  background-color: #cca142;
+  box-shadow: 3px 3px 3px #fac85a;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.fairy-type {
+  background-color: #ffafdc;
+  box-shadow: 3px 3px 3px #ff7eb8;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.ice-type {
+  background-color: #00b7ee;
+  box-shadow: 3px 3px 3px #14f5ff;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.psychic-type {
+  background-color: #dc78c8;
+  box-shadow: 3px 3px 3px #f08cdc;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.steel-type {
+  background-color: #96b4dc;
+  box-shadow: 3px 3px 3px #aac8f0;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.dark-type {
+  background-color: #646464;
+  box-shadow: 3px 3px 3px #787878;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.fighting-type {
+  background-color: #c85500;
+  box-shadow: 3px 3px 3px #dc6900;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.rock-type {
+  background-color: #a07850;
+  box-shadow: 3px 3px 3px #b48c64;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.ghost-type {
+  background-color: #8c78f0;
+  box-shadow: 3px 3px 3px #a08cff;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+.dragon-type {
+  background-color: #3c64c8;
+  box-shadow: 3px 3px 3px #5078dc;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 7.5rem;
+  height: 1.6rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: white;
+}
+
+/* container */
+
+.header {
+  text-align: center;
+  margin-top: 2%;
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+.wrap {
+  background-color: #fffffe;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  height: 100em;
+}
+
+.container img {
+  display: block;
+  height: auto;
+  min-height: 40px;
+  margin-inline: auto;
+}
+
+/* content */
+
+.content {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.explanation {
+  width: 45%;
+  text-align: justify;
+
+  p {
+    font-size: 18px;
+  }
+
+  .entries {
+    padding: 20px;
+  }
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 53%;
+
+  h3 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .mon_height {
+    width: 40%;
+    padding: 20px;
+  }
+
+  .mon_weight {
+    width: 40%;
+    padding: 20px;
+  }
+
+  .gender {
+    width: 40%;
+    padding: 20px;
+  }
+
+  .ability {
+    width: 45%;
+    padding: 20px;
+  }
+}
+
+.type {
+  width: 45%;
+}
+
+audio {
+  max-height: 40px;
+}
+
+.stats {
+  width: 53%;
+}
+
+.stat_wrap {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.status {
+  width: 14%;
+}
+
+.status .status_scale {
+  display: block;
+  width: 100%;
+  margin-bottom: 3%;
+  background-color: #0a141e;
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  height: 10px;
+}
+
+.stat_title {
+  text-align: center;
+}
+
+[class="fa-solid fa-mars"] {
+  color: #2fa8ff;
+  font-size: 24px;
+}
+
+[class="fa-solid fa-venus"] {
+  color: #ffc0cb;
+  font-size: 24px;
+}
+
+/* evolution */
+.evolution {
+  margin-inline: auto;
+  margin-top: 4%;
+  width: 75%;
+  height: 30%;
+  text-align: center;
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .evo-wrap {
+    display: flex;
+  }
+
+  img {
+    width: 65%;
+    height: auto;
+    margin-top: 45px;
+  }
+
+  .arrow {
+    width: 30px;
+    height: 1px;
+    background-color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .evo {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 400px;
+  }
+  p {
+    font-size: 36px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+/*  */
+[class="evo co-fire"] {
+  background: #ffaf76 !important;
+}
+
+[class="evo co-grass"] {
+  background: rgb(70, 255, 147) !important;
+}
+
+[class="evo co-bug"] {
+  background: #bcdf5c !important;
+}
+
+/*  */
+
+.co-grass {
+  background: linear-gradient(to left, #b8eb2e, #32b432);
+  color: white;
+}
+
+.co-fire {
+  background: linear-gradient(to left, #ff6900, #ff3700);
+  color: white;
+}
+
+.co-water {
+  background: linear-gradient(to left, #78dcff, #0094e5);
+  color: white;
+}
+
+.co-bug {
+  background: linear-gradient(to left, #99b941, #46c846);
+  color: white;
+}
+
+.co-flying {
+  background: linear-gradient(to left, #79bcd7, #4b9bbb);
+  color: white;
+}
+
+.co-ground {
+  background: linear-gradient(to left, #cca142, #9e7722);
+  color: white;
+}
+
+.co-electric {
+  background: linear-gradient(to left, #ffe100, #e4b700);
+  color: white;
+}
+
+.co-dragon {
+  background: linear-gradient(to left, #7993d3, #00237c);
+  color: white;
+}
+.co-normal {
+  background: linear-gradient(to right, #868686, #bdbdbd);
+  color: white;
+}
+
+.co-steel {
+  background: linear-gradient(to right, #4d698f, #b2cef1);
+  color: white;
+}

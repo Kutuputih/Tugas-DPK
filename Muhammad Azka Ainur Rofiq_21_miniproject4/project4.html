@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miniproject4</title>
+</head>
+<body>
+   <table border="0">
+    <!--nama-->
+    <tr>
+        <td style="width: 20%;">Nama</td>
+        <td><input type="text" placeholder="Nama Depan" name="firstname"> </td>
+        <td><input type="text" placeholder="Nama belakang" name="lastname"></td>
+    </tr>
+    <!--hp-->
+    <tr>
+        <td>No Hp</td>
+        <td colspan="2"><input type="text" placeholder="No Hp" name="nohp" size="46"></td>
+    </tr>
+    <!--email-->
+    <tr>
+        <td>Email</td>
+        <td colspan="2"> <input type="text" placeholder="Email" name="Email" size="46"></td>
+    </tr>
+    <!--gender-->
+    <tr>
+        <td>Gender</td>
+        <td><input type="radio" name="gender" value="pria" checked>Pria </td>
+        <td><input type="radio" name="gender" value="wanita">Wanita</td>
+    </tr>
+    <!--jenjang-->
+    <tr>
+        <td>Jenjang</td>
+        <td> <select name="jenjang" >
+            <option value="tk">TK</option>
+            <option value="sd">SD</option>
+            <option value="smp">SMP</option>
+            <option value="sma">SMA</option>
+            <option value="kuliah">Kuliah</option>
+        </select></td>
+        
+    </tr>
+    <!--hobi-->
+    <tr>
+        <td>Hobi</td>
+        <td colspan="3"><input type="checkbox" name="hobi" value="membaca">Membaca
+            <input type="checkbox" name="hobi" value="menggambar">Menggambar
+            <input type="checkbox" name="hobi" value="menulis">Menulis</td>
+    </tr>
+    <!--alamat-->
+    <tr>
+        <td>Alamat</td>
+        <td colspan="2"><textarea name="alamat" rows="10" cols="46"></textarea></td>
+    </tr>
+    <!--button-->
+    <tr>
+        <td></td>
+        <td colspan="2"> <button type="submit">Kirim</button></td>
+    </tr>
+   </table>
+    
+</body>
+</html>

@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+}
+
+
+
+#gambar {
+    background-image: url(https://helios-i.mashable.com/imagery/articles/0509s0LFjI8h26i2MESpRH7/hero-image.fill.size_1248x702.v1666283790.png);
+    width: 95%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.sidebar {
+    width: 20%;
+    height: 70vh;
+    background-color: grey;
+    float: left;
+}
+
+.sidebar > ul{
+    
+    width: 80%;
+    color: white;
+    margin-left: 10%;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.sidebar > ul > li {
+    height: 50px;
+    margin-top: 6px;
+    background-color: 	#353935;
+    padding-top: 15px;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#table{
+    display: none;
+}
+
+li:hover {
+    background-color: white !important;
+    color: black;
+    cursor: pointer
+}
+
+.content {
+    width: 89.5%;
+    height: 70vh;
+    background-color: palegoldenrod;
+    margin-left: 200px;
+}
+table {
+    margin-left: 200px;
+    padding-top: 20px;
+    display: none;
+}
+
+table * {
+    text-align: left !important;
+}
+
+#table:checked ~ #table-content {
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    height: 28vh;
+    background-color: 	#1d1d1d;
+    color: grey ;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: grey;
+}
+
+.sosmed a {
+    text-decoration: none;
+    border: 10px solid #0f0f0fa6;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.sosmed a:hover {
+    border: 10px solid #000;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.kiri {
+    margin-top: 40px;    
+    width: 70vh;
+}
+
+.kiri * {
+    margin-bottom: 10px;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: left;
+    gap: 3rem;
+    margin-top: 30px;
+}
+
+.kanan {
+    margin-top: 40px;
+    background-color: #0f0f0fa6;
+    padding: 30px;
+    height: 10vh;
+    width: 25%;
+}
+
+.kanan input {
+    width: 75%;
+    height: 35px;
+    border: 0;
+}
+
+.kanan button {
+    background-color: rgb(29, 164, 182);
+    border: 0;
+    width: 100px;
+    color: white;
+    height: 35px;
+}
+
+.kanan button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+
+

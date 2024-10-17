@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 11</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/df81ac4a08.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="header">
+        <h1>The Pillar Of Creation</h1>
+        <div id="gambar"><br><br><br><br><br><br><br></div>
+    </div>
+
+    <div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <label for="table">Project 1 </label>
+                </li>
+                <li>Project 2</li>
+                <li>Project 3</li>              
+            </ul>
+        </div>
+        <div class="content">
+            <input type="checkbox" id="table">
+            <table id="table-content">
+                <!--nama-->
+                <tr>
+                    <td style="width: 20%;">Nama</td>
+                    <td><input type="text" placeholder="Nama Depan" name="firstname"> </td>
+                    <td><input type="text" placeholder="Nama belakang" name="lastname"></td>
+                </tr>
+                <!--hp-->
+                <tr>
+                    <td>No Hp</td>
+                    <td colspan="2"><input type="text" placeholder="No Hp" name="nohp" size="46"></td>
+                </tr>
+                <!--email-->
+                <tr>
+                    <td>Email</td>
+                    <td colspan="2"> <input type="text" placeholder="Email" name="Email" size="46"></td>
+                </tr>
+                <!--gender-->
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender" value="pria" checked>Pria </td>
+                    <td><input type="radio" name="gender" value="wanita">Wanita</td>
+                </tr>
+                <!--jenjang-->
+                <tr>
+                    <td>Jenjang</td>
+                    <td> <select name="jenjang" >
+                        <option value="tk">TK</option>
+                        <option value="sd">SD</option>
+                        <option value="smp">SMP</option>
+                        <option value="sma">SMA</option>
+                        <option value="kuliah">Kuliah</option>
+                    </select></td>
+                    
+                </tr>
+                <!--hobi-->
+                <tr>
+                    <td>Hobi</td>
+                    <td colspan="3"><input type="checkbox" name="hobi" value="membaca">Membaca
+                        <input type="checkbox" name="hobi" value="menggambar">Menggambar
+                        <input type="checkbox" name="hobi" value="menulis">Menulis</td>
+                </tr>
+                <!--alamat-->
+                <tr>
+                    <td>Alamat</td>
+                    <td colspan="2"><textarea name="alamat" rows="10" cols="46"></textarea></td>
+                </tr>
+                <!--button-->
+                <tr>
+                    <td></td>
+                    <td colspan="2"> <button type="submit">Kirim</button></td>
+                </tr>
+               </table>
+            
+        </div>
+            
+                
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="kiri">
+            <h1>UBER HOME</h1>
+            <p style="font-size: large;">Copyright @2014 Uber J33. All Rights Reserved. Designed by <a href="#">JoomIArt.com Joomla</a> <br> is Free Software released under the <a href="#">GNU General Public Licence</a></p>
+            <div class="sosmed">
+                <a href="#" class="fa-brands fa-facebook"></a>
+                <a href="#" class="fa-brands fa-twitter"></a>
+                <a href="#" class="fa-brands fa-google"></a>
+                <a href="#" class="fa-brands fa-pinterest"></a>
+            </div>
+        </div>
+        <div class="kanan">
+            <p style="margin-bottom: 20px;">Subscribe to our email list and stay up-to-date with all out awesome releases and latest updates</p>
+            <input type="text" placeholder="Type you Email">
+            <button>Subscribe</button>
+        </div>
+    </div>
+</body>
+</html>

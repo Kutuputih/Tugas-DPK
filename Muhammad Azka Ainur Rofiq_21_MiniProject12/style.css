@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poiret One", sans-serif;
+    background-color: #1f2d5c;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.-left {
+    background-color: #50c6e0;
+    color: white; 
+    width: 25%;
+    height: 60vh;
+}
+
+.-left h1 {
+    font-size: 46px;
+    padding-top: 20%;
+    text-align: center;
+}
+
+.-left ul {
+    font-size: 24px;
+    margin-left: 40px;
+    list-style: circle;
+}
+
+.-left li {
+    margin-bottom: 30px;
+    
+}
+
+.-right {
+    background-color: white;
+    width: 30%;
+    max-height: 60vh;
+    padding-left: 40px;
+    padding-top: 30px;
+    
+}
+
+.-right h2 {
+    color: #50c6e0;
+    font-size: 36px
+}
+
+.-right h2 span {
+    color: rgba(90, 90, 90, 0.466);
+}
+
+.form input {
+    width: 90%;
+    height: 50px;
+    border: 0;
+    border-bottom: 1px solid grey;
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content:  space-between;
+    align-items:flex-end;
+    height: 50%;
+}
+
+.bottom button {
+    width: 120px;
+    height: 40px;
+    border: 2px solid #50c6e0;
+    background-color: white;
+    color: #50c6e0;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.bottom a {
+    font-size: 24px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+[class="fa-brands fa-facebook"] {
+    color: #4267B2;
+}
+
+[class="fa-brands fa-x-twitter"] {
+    color: grey;
+}
+
+[class="fa-brands fa-google"] {
+    color: #DB4437;
+}
+
+button:hover {
+    background-color: #50c6e0;
+    border: 2px solid #50c6e0;
+    color: white;
+    cursor: pointer;
+}
+
+
+footer {
+    text-align: center;
+    color: grey;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
