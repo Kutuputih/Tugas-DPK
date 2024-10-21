@@ -571,3 +571,8 @@ audio {
   background: linear-gradient(to right, #4d698f, #b2cef1);
   color: white;
 }
+
+.co-poison {
+  background: linear-gradient(to right, #881488, #be78be);
+  color: white;
+}
